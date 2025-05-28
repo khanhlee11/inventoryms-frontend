@@ -1,0 +1,98 @@
+.supplier-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.supplier-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.supplier-header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+
+.add-sup button {
+  padding: 10px 16px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.add-sup button:hover {
+  background-color: #1b4f72;
+}
+
+.supplier-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.supplier-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f9f9;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+}
+
+.supplier-item span {
+  font-size: 18px;
+  color: #444;
+}
+
+.supplier-actions button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.supplier-actions button:first-child {
+  background-color: #3498db;
+  color: white;
+}
+
+.supplier-actions button:first-child:hover {
+  background-color: #2c80b4;
+}
+
+.supplier-actions button:last-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.supplier-actions button:last-child:hover {
+  background-color: #c0392b;
+}
+
+.message {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 15px auto;
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid #bee5eb;
+  font-weight: 600;
+}

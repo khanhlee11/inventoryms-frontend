@@ -1,0 +1,89 @@
+.transaction-details-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f4faff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+.message {
+  background-color: #e3f2fd;
+  border-left: 4px solid #007bff;
+  color: #0056b3;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.section-card {
+  background-color: white;
+  border: 1px solid #cce5ff;
+  border-left: 5px solid #007bff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.08);
+}
+
+.section-card h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 6px;
+}
+
+.section-card p {
+  margin: 8px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.section-card img {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.transaction-staus-update {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.transaction-staus-update label {
+  font-weight: bold;
+  color: #333;
+}
+
+.transaction-staus-update select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.transaction-staus-update select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.transaction-staus-update button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-staus-update button:hover {
+  background-color: #0056b3;
+}
